@@ -1,3 +1,6 @@
+* {
+    font-family: arial, sans-serif;
+}
 #nav {
 	padding: 0; margin: 0;
 	text-align: right;
@@ -8,8 +11,23 @@
 }
 #nav a {
 	display:inline-block;
-	margin: 0 30px;
+	margin: 0 20px;
+    text-decoration: none;
+    color: GrayText;
+    font-size: 0.9em;
 }
 #logogoogle {
     width: 25%;
 }
+input {
+    width: 40%;
+    font-size: 1.5em;
+}
+span {
+    background-color: WhiteSmoke ;
+    border: 1px solid #B5B9CC;
+    border-radius: 0.21em;
+    padding: 0.2em;
+    margin: 1%;
+    color: ThreedShadow;
+    }
