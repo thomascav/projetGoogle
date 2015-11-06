@@ -1,0 +1,15 @@
+#nav {
+	padding: 0; margin: 0;
+	text-align: right;
+}
+#nav li {
+	display: inline;
+	list-style-type: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+#logogoogle {
+    width: 25%;
+}
