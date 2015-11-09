@@ -4,39 +4,49 @@
 <head>
 	<meta charset="utf-8">
 	<title>Page Google</title>
-	<meta name="viewport" content="width= device-width">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=0.7">-->
 	<link rel="stylesheet" href="css/google.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css" />
 </head>
 
 <body>
 	<header>
 		<ul id="nav">
-			<li><a href="#">Gmail</a></li>
-			<li><a href="#">Images</a></li>
+			<li><a href="https://www.google.com/intl/fr/mail/help/about.html">Gmail</a></li>
+			<li><a href="https://www.google.com/imghp?hl=fr&tab=wi&ei=l2pAVpDZCYnXa-zPntAK&ved=0CBQQqi4oAQ">Images</a></li>
 			<li>
 				<img src="images/apps.png" alt="logo apps" />
 			</li>
-			<li><a href="#">Connexion</a></li>
+			<li><a href="https://accounts.google.com/ServiceLogin?hl=fr&continue=https://www.google.com/%3Fgfe_rd%3Dcr%26ei%3Df2pAVozNAouy0wWPnY34DA%26gws_rd%3Dcr%26fg%3D1#identifier">Connexion</a></li>
 		</ul>
 	</header>
 
 	<center>
-		<a href="https://www.google.fr/"><img id="logogoogle" src="images/logoGoogle.jpg" alt="logo google" /></a>
+		<a href="https://www.google.fr/">
+			<img id="logogoogle" src="images/logoGoogle.jpg" alt="logo google" />
+		</a>
 	</center>
-	<aside class="">
-
-	</aside>
 	<section>
 		<center>
 			<input type="type" name="recherche" value="">
 			<p>
-				<span>Recherche Google</span>
-				<span>J'ai de la chance</span>
+				<span class="searchbtn"><a href="https://www.google.com/doodles">J'ai de la chance</a></span>
+				<span class="searchbtn"><a href="https://www.google.fr/search?client=ubuntu&channel=fs&q=comment+faire+une+recherche+sur+google&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=AGlAVovzMsGx0wXNrrrIBQ">Recherche Google</a></span>
 			</p>
 		</center>
 	</section>
 	<footer>
-
+		<span id="fleft">
+			<a href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a>
+			<a href="https://www.google.fr/services/?fg=1">Entreprise</a>
+			<a href="https://www.google.fr/intl/fr/about/">A propos</a>
+		</span>
+		<span id="fright">
+			<a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a>
+			<a href="https://www.google.fr/intl/fr/policies/terms/regional.html">Conditions</a>
+			<a href="#">Paramêtres</a>
+			<a href="https://www.google.com/?gfe_rd=cr&ei=f2pAVozNAouy0wWPnY34DA&gws_rd=cr&fg=1">Utiliser Google.com</a>
+		</span>
 	</footer>
 </body>
 

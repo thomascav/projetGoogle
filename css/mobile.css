@@ -1,4 +1,3 @@
-
 * {
     font-family: arial, sans-serif;
 }
@@ -8,15 +7,12 @@ span :link {
 }
 #nav {
 	padding: 0; margin: 0;
-	text-align: right;
     margin-top: 1em;
 }
 #nav li {
-	display: inline;
 	list-style-type: none;
 }
 #nav a {
-	display:inline-block;
 	margin: 0 20px;
     text-decoration: none;
     color: #757575;
@@ -46,19 +42,4 @@ footer {
     text-decoration: none;
     font-size: small;
     margin-top: 18%;
-}
-footer #fright {
-    text-decoration: none;
-    margin-left: 52%;
-    padding: 1em;
-    margin-bottom: 1em;
-}
-footer #fright a {
-    padding: 1em;
-}
-footer #fleft {
-    text-decoration: none;
-}
-footer #fleft a {
-    padding: 1em;
 }
