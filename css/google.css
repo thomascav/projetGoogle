@@ -66,11 +66,14 @@ input {
     nav ul li a{
         width: auto;
         background-color: #F2F2F2;
-        display: inline;
         display: inline-block;
+        padding: 1em;
+    }
+    nav ul li {
+        display: inline;
     }
     nav {
-        margin-bottom: 0;
+        margin-top: 13%;
     }
     container {
         clear: both;
